@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{BD5545F1-1C45-E21B-EF4A-8122318F8617}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/Mariotransform.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player/PlayerMovementController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Supermario.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Mariotransform.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SuperMarioBros" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Player" expanded="True">
+                  <Node name="Mariotransform.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="80b9584b-6bf5-492f-a980-97bae1861224" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
