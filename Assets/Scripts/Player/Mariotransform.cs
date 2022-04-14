@@ -42,7 +42,7 @@ public class Mariotransform : MonoBehaviour
 
         sprites[0].enabled = true;
         CurrentSpriteRenderer = sprites[0];
-        //transforms[0].gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        
 
         coroutineTransform = marioTransform();
         coroutineDamaged = marioDamaged();
@@ -63,8 +63,7 @@ public class Mariotransform : MonoBehaviour
             Time.timeScale = 0;
             isTransforming = false;
             inTransform = true;
-            //transforms[1].GetComponent<BoxCollider2D>().enabled = false;
-            //transforms[3].GetComponent<BoxCollider2D>().enabled = true;
+            
         }
 
         if (isDamaged && inTransform)
@@ -73,8 +72,7 @@ public class Mariotransform : MonoBehaviour
             Time.timeScale = 0;
             isDamaged = false;
             inTransform = false;
-            //transforms[3].GetComponent<BoxCollider2D>().enabled = false;
-            //transforms[1].GetComponent<BoxCollider2D>().enabled = true;
+            
         }
     }
 

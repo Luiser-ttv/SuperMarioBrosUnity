@@ -18,6 +18,8 @@ public class PlayerMovementController : MonoBehaviour
     public static float AutoMoveDir = 1;
     public MarioState MarioState;
 
+    private GameController GC;
+
     [SerializeField] private Animator animator;
     [SerializeField] private BoxCollider2D bigMarioBox;
     [Space]
@@ -76,8 +78,8 @@ public class PlayerMovementController : MonoBehaviour
         MarioTransform = GetComponent<Mariotransform>();
         playerRigidbody = GetComponent<Rigidbody2D>();
         collider = GetComponent<BoxCollider2D>();
-        //spriteRenderer = GetComponent<SpriteRenderer>();
         mainCam = Camera.main;
+        GC = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 
         MarioTransform.OnTransform += (sr, an, state) =>
         {
@@ -89,13 +91,13 @@ public class PlayerMovementController : MonoBehaviour
             {
                 collider.size = new Vector2(1, 2);
                 collider.offset = new Vector2(0, 0.5f);
-                //igMarioBox.enabled = true;
+                
             }
             else
             {
                 collider.size = new Vector2(1, 1);
                 collider.offset = new Vector2(0, 0);
-                //bigMarioBox.enabled = false;
+                
             }
         };
 
@@ -158,8 +160,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
             {
-                //TODO: set sound based on size
-                //SoundGuy.Instance.PlaySound(true? "smb_jump_small" : "smb_jump_super");
+               
                 jump = true;
             }
 
@@ -179,7 +180,7 @@ public class PlayerMovementController : MonoBehaviour
     void FixedUpdate()
     {
         playerRigidbody.MovePosition(transform.position + new Vector3(desiredXDir * currentSpeed, gravity));
-        //Debug.Log($"{IsGrounded()} | {transform.position}");'
+        
     }
 
     private bool IsHeadJumping()
@@ -211,7 +212,7 @@ public class PlayerMovementController : MonoBehaviour
         Debug.DrawRay(transform.position + new Vector3(0, groundOffset, 0), Vector2.down);
         if (groundRay.collider != null)
         {
-            //Debug.Log(groundRay.collider.name);
+            
             return true;
         }
 
@@ -223,39 +224,36 @@ public class PlayerMovementController : MonoBehaviour
         switch (power)
         {
             case Power.Flower:
-                Debug.Log("Player received Flower Power!");
+                
                 break;
             case Power.Mushroom:
-                Debug.Log("Player received Mushroom Power!");
+                
                 OnPowerupPickup(power, MarioState.Small);
                 SoundGuy.Instance.PlaySound("Resources/smb_powerup.wav");
                 break;
             case Power.Star:
-                Debug.Log("Player received Star Power!");
+                
                 break;
             default:
-                Debug.Log("Player didn't recieve a Power!");
                 break;
         }
     }
 
     public void AddLives(int numLives)
     {
-        // Increase lives by numLives
+        
         Debug.Log("Recieved " + numLives + " lives (not functional yet)!");
     }
 
     public void Die()
     {
-        // Decrement player lives and respawn etc...
-        Debug.Log("Player has died (not functional yet)!");
+        GC.MarioDie();
     }
 
     [ContextMenu("Bouce")]
     public void Bounce()
     {
         jump = true;
-        // Change this to 0 for full height
         currentJumpTimer = 0.5f;
     }
 }
