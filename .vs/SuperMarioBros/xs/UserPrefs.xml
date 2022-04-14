@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{BD5545F1-1C45-E21B-EF4A-8122318F8617}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/LevelCompleteManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StaticCoin.cs">
     <Files>
       <File FileName="Assets/Scripts/Manager/LevelCompleteManager.cs" Line="63" Column="9" />
+      <File FileName="Assets/Scripts/StaticCoin.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +12,9 @@
               <Node name="Scripts" expanded="True">
                 <Node name="Enemies" expanded="True" />
                 <Node name="Image Effects" expanded="True" />
-                <Node name="Manager" expanded="True">
-                  <Node name="LevelCompleteManager.cs" selected="True" />
-                </Node>
+                <Node name="Manager" expanded="True" />
                 <Node name="Player" expanded="True" />
+                <Node name="StaticCoin.cs" selected="True" />
               </Node>
             </Node>
           </Node>

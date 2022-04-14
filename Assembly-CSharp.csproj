@@ -58,9 +58,12 @@
     <Compile Include="Assets/Scripts/Manager/GameController.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/Deathpit.cs" />
+    <Compile Include="Assets/Scripts/SpawnChoice.cs" />
+    <Compile Include="Assets/Scripts/Enemies/NPCBehaviour.cs" />
     <Compile Include="Assets/Scripts/Image Effects/CRTImageEffect.cs" />
     <Compile Include="Assets/Scripts/Manager/CoinManager.cs" />
     <Compile Include="Assets/Scripts/Manager/LivesManager.cs" />
+    <Compile Include="Assets/Scripts/Teleporter.cs" />
     <Compile Include="Assets/Scripts/Manager/TimeManager.cs" />
     <Compile Include="Assets/Scripts/Image Effects/BloomEffect.cs" />
     <Compile Include="Assets/Scripts/LowerFlag.cs" />
@@ -68,14 +71,13 @@
     <Compile Include="Assets/Scripts/Player/PlayerMovementController.cs" />
     <Compile Include="Assets/Scripts/Manager/ScoreManager.cs" />
     <Compile Include="Assets/Scripts/Firework.cs" />
+    <Compile Include="Assets/Scripts/BrickBroken.cs" />
     <Compile Include="Assets/Scripts/Player/Supermario.cs" />
     <Compile Include="Assets/Scripts/Coin.cs" />
+    <Compile Include="Assets/Scripts/ItemSpawn.cs" />
     <Compile Include="Assets/Scripts/Manager/LevelCompleteManager.cs" />
     <Compile Include="Assets/Scripts/Player/LowerPlayer.cs" />
-    <Compile Include="Assets/Scripts/BrickBroken.cs" />
-    <Compile Include="Assets/Scripts/SpawnChoice.cs" />
-    <Compile Include="Assets/Scripts/ItemSpawn.cs" />
-    <Compile Include="Assets/Scripts/Enemies/NPCBehaviour.cs" />
+    <Compile Include="Assets/Scripts/StaticCoin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Sprites/Shaders/CRT.shader" />

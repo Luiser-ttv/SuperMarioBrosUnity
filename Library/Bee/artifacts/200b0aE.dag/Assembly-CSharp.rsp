@@ -364,6 +364,8 @@
 "Assets/Scripts/Player/Supermario.cs"
 "Assets/Scripts/SoundGuy.cs"
 "Assets/Scripts/SpawnChoice.cs"
+"Assets/Scripts/StaticCoin.cs"
+"Assets/Scripts/Teleporter.cs"
 -langversion:8.0
 
 /deterministic
