@@ -8,6 +8,9 @@ TagManager:
   - Soundguy
   - LoadCanvas
   - UI
+  - Green Mushroom
+  - Enemy
+  - Level1
   layers:
   - Default
   - TransparentFX
@@ -15,9 +18,9 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
+  - NPC
+  - Player
+  - NPCHitbox
   - 
   - 
   - 
@@ -48,9 +51,9 @@ TagManager:
   - name: Background
     uniqueID: 2756668835
     locked: 0
-  - name: Players
-    uniqueID: 1161149355
-    locked: 0
   - name: Props
     uniqueID: 3720888471
+    locked: 0
+  - name: Players
+    uniqueID: 1161149355
     locked: 0

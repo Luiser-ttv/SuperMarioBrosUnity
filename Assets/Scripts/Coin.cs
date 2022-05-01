@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour
 {
     private Vector3 _startPos;
     private CoinManager CM;
-    // Start is called before the first frame update
+    
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class Coin : MonoBehaviour
         _startPos = transform.position;
         SoundGuy.Instance.PlaySound("smb_coin");
         StartCoroutine(Run());
-        transform.Translate(0,1,0); //Start above brick
+        transform.Translate(0,1,0); 
     }
     
     private IEnumerator Run()

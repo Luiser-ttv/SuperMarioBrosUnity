@@ -105,7 +105,7 @@ public class NPCBehaviour : MonoBehaviour
 
     private IEnumerator Die(bool squashed)
     {
-        //horizontalSpeed = 0;
+        
         dead = true;
 
         // Start animation, etc...
@@ -131,7 +131,7 @@ public class NPCBehaviour : MonoBehaviour
             yield return new WaitForSeconds(10f);
         }
 
-        // When it's done:
+        
         Destroy(gameObject);
     }
 
@@ -141,11 +141,6 @@ public class NPCBehaviour : MonoBehaviour
         Vector3 origin2 = bc2d.bounds.center + (transform.up * (YOffset + rayOffsetExcess));
         Vector3 direction = transform.right * Mathf.Sign(horizontalSpeed);
         float distance = XOffset + rayDistanceExcess;
-
-        //bool hit = Physics2D.Raycast(origin1, direction, distance, raycastLayer) || Physics2D.Raycast(origin2, direction, distance, raycastLayer);
-
-        //RaycastHit2D[] hits1 = Physics2D.RaycastAll(origin1, direction, distance, raycastLayer);
-        //RaycastHit2D[] hits2 = Physics2D.RaycastAll(origin2, direction, distance, raycastLayer);
 
         List<RaycastHit2D> hitList = new List<RaycastHit2D>();
         hitList.AddRange(Physics2D.RaycastAll(origin1, direction, distance, raycastLayer));

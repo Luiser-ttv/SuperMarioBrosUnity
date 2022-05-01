@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public enum LevelState { Title, Loading, Main, World1, GameOver };
+    public enum LevelState { Title, World1, GameOver };
     public LevelState state;
 
     public Canvas LoadingCanvas;
@@ -42,14 +42,6 @@ public class GameController : MonoBehaviour
         {
             return LevelState.Title;
         }
-        else if (levelName == "LoadingScene")
-        {
-            return LevelState.Loading;
-        }
-        else if (levelName == "MainScene")
-        {
-            return LevelState.Main;
-        }
         else if (levelName == "World 1-1")
         {
             return LevelState.World1;
@@ -64,7 +56,7 @@ public class GameController : MonoBehaviour
 
     public void LoadLoadingScene()
     {
-        state = LevelState.Loading;
+        
         LoadScene();
         ShowLoadingCanvas();
         TM.ToggleTimerText(false);
@@ -80,7 +72,7 @@ public class GameController : MonoBehaviour
 
     private void LoadMainScene()
     {
-        state = LevelState.Main;
+        
         LoadScene();
         TM.UnpauseTimer();
         LoadingCanvas.enabled = false;

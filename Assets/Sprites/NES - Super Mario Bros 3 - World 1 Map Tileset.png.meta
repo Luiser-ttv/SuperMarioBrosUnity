@@ -1,0 +1,1188 @@
+fileFormatVersion: 2
+guid: 6743acce8d9484f818d3705fd66aa8e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -642503325686980165
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_0
+  - first:
+      213: -4441349209938933500
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_1
+  - first:
+      213: 2826850472852980899
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_2
+  - first:
+      213: -1409409332068466890
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_3
+  - first:
+      213: -6958980465350158220
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_4
+  - first:
+      213: 3368684596117281233
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_5
+  - first:
+      213: 6147994391881872017
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_6
+  - first:
+      213: 5849010808880510421
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_7
+  - first:
+      213: -1426435808986819200
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_8
+  - first:
+      213: -944069061272396745
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_9
+  - first:
+      213: -839608609503199169
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_10
+  - first:
+      213: 1213212547473111651
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_11
+  - first:
+      213: 1109434041891136936
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_12
+  - first:
+      213: -1381881375182287837
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_13
+  - first:
+      213: -5828358125798378601
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_14
+  - first:
+      213: -2035239742911706669
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_15
+  - first:
+      213: -7460211182655642888
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_16
+  - first:
+      213: 4380936798195587180
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_17
+  - first:
+      213: -5472436053709974801
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_18
+  - first:
+      213: -8817252472391812312
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_19
+  - first:
+      213: -6814948587427975348
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_20
+  - first:
+      213: -2498843293183851977
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_21
+  - first:
+      213: 524092443340635571
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_22
+  - first:
+      213: -3730987591622455002
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_23
+  - first:
+      213: 7982692690173797817
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_24
+  - first:
+      213: -1831415661332721471
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_25
+  - first:
+      213: -7617900560280530574
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_26
+  - first:
+      213: -5614992731085315729
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_27
+  - first:
+      213: 7517267447947328610
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_28
+  - first:
+      213: 6038549239387235682
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_29
+  - first:
+      213: -9108421097347221347
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_30
+  - first:
+      213: -7238720033238662213
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_31
+  - first:
+      213: -1243560015202853160
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_32
+  - first:
+      213: 8582479653046864059
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_33
+  - first:
+      213: -8606422635616116386
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_34
+  - first:
+      213: -1649514254291249668
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_35
+  - first:
+      213: 1488958088593478305
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_36
+  - first:
+      213: 3798612286084092035
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_37
+  - first:
+      213: 2887572212168298351
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_38
+  - first:
+      213: -6898673830497472533
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_39
+  - first:
+      213: 2969437959189363249
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_40
+  - first:
+      213: 3680971900585952765
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_41
+  - first:
+      213: 3459762978729329686
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_42
+  - first:
+      213: -45032905997071412
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_43
+  - first:
+      213: -2708479699182007807
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_44
+  - first:
+      213: -3168881816231834494
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_45
+  - first:
+      213: 8254323664534287347
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_46
+  - first:
+      213: -7808526369535124652
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_47
+  - first:
+      213: 9025142436731672368
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_48
+  - first:
+      213: 5090007468642649107
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_49
+  - first:
+      213: -1254726639556272376
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_50
+  - first:
+      213: 635640383858789192
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_51
+  - first:
+      213: -6493650613140445604
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_52
+  - first:
+      213: -4326378470106273769
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_53
+  - first:
+      213: -4379390000436496096
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_54
+  - first:
+      213: -5344299783811380294
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_55
+  - first:
+      213: 7725711045479146797
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_56
+  - first:
+      213: 6340263084395294499
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_57
+  - first:
+      213: 4413604835781292330
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_58
+  - first:
+      213: -6661638475198013189
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_59
+  - first:
+      213: -1631910909560034530
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_60
+  - first:
+      213: 1712423425794793810
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_61
+  - first:
+      213: 2007097626326059318
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_62
+  - first:
+      213: -8077279923903435141
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_63
+  - first:
+      213: -8525913827484016752
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_64
+  - first:
+      213: 6133925610844555582
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_65
+  - first:
+      213: 4064421567208184420
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_66
+  - first:
+      213: 4213573546677803204
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_67
+  - first:
+      213: 2240014783501019633
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_68
+  - first:
+      213: -4138820717078726317
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_69
+  - first:
+      213: -6098409778996911934
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_70
+  - first:
+      213: 6580689095262049233
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_71
+  - first:
+      213: -2672918898078291314
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_72
+  - first:
+      213: -6583519286761289491
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_73
+  - first:
+      213: -8699330076070701220
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_74
+  - first:
+      213: 4566517926229221008
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_75
+  - first:
+      213: -7146498146513652321
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_76
+  - first:
+      213: -5220904350812733254
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_77
+  - first:
+      213: 2600773840045165555
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_78
+  - first:
+      213: -5284740977147543567
+    second: NES - Super Mario Bros 3 - World 1 Map Tileset_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ab6121ae5517f0800000000000000
+      internalID: -642503325686980165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 115
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409c022cc682d52c0800000000000000
+      internalID: -4441349209938933500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a40c8b178dfa3720800000000000000
+      internalID: 2826850472852980899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f30fa0ea5c07ce0800000000000000
+      internalID: -1409409332068466890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478dbe3132cbc6f90800000000000000
+      internalID: -6958980465350158220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d996e7cac8ffbe20800000000000000
+      internalID: 3368684596117281233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19276317350125550800000000000000
+      internalID: 6147994391881872017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d53ebe575cdb2150800000000000000
+      internalID: 5849010808880510421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 115
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08591767038443ce0800000000000000
+      internalID: -1426435808986819200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 115
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c1c6fc03ef5e2f0800000000000000
+      internalID: -944069061272396745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30c3380b6c1954f0800000000000000
+      internalID: -839608609503199169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a7e21526236d010800000000000000
+      internalID: 1213212547473111651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5a5a01260856f00800000000000000
+      internalID: 1109434041891136936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c0886f53292dce0800000000000000
+      internalID: -1381881375182287837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793b6002a238d1fa0800000000000000
+      internalID: -5828358125798378601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d98dfaac3061c3e0800000000000000
+      internalID: -2035239742911706669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e96c8471087890800000000000000
+      internalID: -7460211182655642888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6892e78ec63ccc30800000000000000
+      internalID: 4380936798195587180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2939247600e04b0800000000000000
+      internalID: -5472436053709974801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 98
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bb6289793d2a580800000000000000
+      internalID: -8817252472391812312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f2ecbed507c61a0800000000000000
+      internalID: -6814948587427975348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732c868a343525dd0800000000000000
+      internalID: -2498843293183851977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdf8caec43f54700800000000000000
+      internalID: 524092443340635571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62114f39d8ed83cc0800000000000000
+      internalID: -3730987591622455002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5aae425b838ce60800000000000000
+      internalID: 7982692690173797817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c01d26c8218596e0800000000000000
+      internalID: -1831415661332721471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271da324dc7c74690800000000000000
+      internalID: -7617900560280530574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61624f4cd98312b0800000000000000
+      internalID: -5614992731085315729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cf18c6ae2b25860800000000000000
+      internalID: 7517267447947328610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a1642a8c3dc350800000000000000
+      internalID: 6038549239387235682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98f1fb3543689180800000000000000
+      internalID: -9108421097347221347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb34e4e6b76ea8b90800000000000000
+      internalID: -7238720033238662213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de54fc31ccfdbee0800000000000000
+      internalID: -1243560015202853160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb840e3c5c71b1770800000000000000
+      internalID: 8582479653046864059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5168313638df8880800000000000000
+      internalID: -8606422635616116386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5d605768fbb19e0800000000000000
+      internalID: -1649514254291249668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a21f042e77d9a410800000000000000
+      internalID: 1488958088593478305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3801a7f8fb167b430800000000000000
+      internalID: 3798612286084092035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f8491c0a7b21820800000000000000
+      internalID: 2887572212168298351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros 3 - World 1 Map Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef2aefa3bcf240a0800000000000000
+      internalID: -6898673830497472533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

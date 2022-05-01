@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{BD5545F1-1C45-E21B-EF4A-8122318F8617}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StaticCoin.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/LivesManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Manager/LevelCompleteManager.cs" Line="63" Column="9" />
-      <File FileName="Assets/Scripts/StaticCoin.cs" Line="12" Column="24" />
-      <File FileName="Assets/Scripts/Coin.cs" Line="32" Column="24" />
+      <File FileName="Assets/Scripts/Manager/GameController.cs" Line="143" Column="20" />
+      <File FileName="Assets/Scripts/SoundGuy.cs" Line="45" Column="9" />
+      <File FileName="Assets/Scripts/Deathpit.cs" Line="19" Column="27" />
+      <File FileName="Assets/Scripts/Manager/LivesManager.cs" Line="27" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,11 +12,10 @@
           <Node name="SuperMarioBros" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Enemies" expanded="True" />
-                <Node name="Image Effects" expanded="True" />
-                <Node name="Manager" expanded="True" />
+                <Node name="Manager" expanded="True">
+                  <Node name="LivesManager.cs" selected="True" />
+                </Node>
                 <Node name="Player" expanded="True" />
-                <Node name="StaticCoin.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="80b9584b-6bf5-492f-a980-97bae1861224" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d8f5747f-c7fa-4e44-85ef-ddc17d40cfa4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
