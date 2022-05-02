@@ -78,15 +78,15 @@ public class NPCBehaviour : MonoBehaviour
             Vector3 head = transform.position + transform.up * triggerCollider.bounds.extents.y;
             bool hitHead = Vector3.Dot(transform.up, (feet - head).normalized) >= 0;
 
-            if (false) // 'false' SHOULD BE REPLACED WITH player.StarActive or something...
+            if (false) 
             {
                 Kill(false);
             }
-            else if (!hostile || hitHead) 
+            else if (!hostile || hitHead)
             {
                 Kill(true);
 
-                // player.Bounce(); <- REQUIRES FUNCTION IN PLAYER CONTROLLER TO CALL!
+                
 
                 player.AddLives(livesOnContact);
                 player.PowerUp(powerOnContact);
@@ -105,7 +105,7 @@ public class NPCBehaviour : MonoBehaviour
 
     private IEnumerator Die(bool squashed)
     {
-        
+
         dead = true;
 
         // Start animation, etc...
@@ -131,7 +131,7 @@ public class NPCBehaviour : MonoBehaviour
             yield return new WaitForSeconds(10f);
         }
 
-        
+
         Destroy(gameObject);
     }
 
@@ -148,7 +148,7 @@ public class NPCBehaviour : MonoBehaviour
         RaycastHit2D[] hits = hitList.ToArray();
 
         bool hit = false;
-        
+
         foreach (RaycastHit2D rcHit in hits)
         {
             if (rcHit.collider != triggerCollider && rcHit.normal == (new Vector2(-horizontalSpeed, 0f)).normalized && rcHit.distance > 0f)

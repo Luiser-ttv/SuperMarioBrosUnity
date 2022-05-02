@@ -14,7 +14,7 @@ public class StaticCoin : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         SoundGuy.Instance.PlaySound("smb_coin");
-        CM.AddCoins(1);
+        CM.AddCoins(2);
         Destroy(gameObject);
     }
 }

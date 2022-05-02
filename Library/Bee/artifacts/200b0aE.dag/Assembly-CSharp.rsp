@@ -347,6 +347,7 @@
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/Deathpit.cs"
 "Assets/Scripts/Enemies/NPCBehaviour.cs"
+"Assets/Scripts/EnterCastle.cs"
 "Assets/Scripts/Firework.cs"
 "Assets/Scripts/Image Effects/BloomEffect.cs"
 "Assets/Scripts/Image Effects/CRTImageEffect.cs"

@@ -76,7 +76,7 @@ public class TimeManager : MonoBehaviour
 
     private string ZerosGenerator(int score)
     {
-        // depending on the size of the number, place zeros in front of the number before displaying it
+        
         string zeros = "";
         for (int i = 2; i > 0; i--)
         {

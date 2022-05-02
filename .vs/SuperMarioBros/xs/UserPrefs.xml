@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{BD5545F1-1C45-E21B-EF4A-8122318F8617}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/LivesManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemies/NPCBehaviour.cs">
     <Files>
-      <File FileName="Assets/Scripts/Manager/GameController.cs" Line="143" Column="20" />
-      <File FileName="Assets/Scripts/SoundGuy.cs" Line="45" Column="9" />
-      <File FileName="Assets/Scripts/Deathpit.cs" Line="19" Column="27" />
-      <File FileName="Assets/Scripts/Manager/LivesManager.cs" Line="27" Column="17" />
+      <File FileName="Assets/Scripts/Enemies/NPCBehaviour.cs" Line="89" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +9,10 @@
           <Node name="SuperMarioBros" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Manager" expanded="True">
-                  <Node name="LivesManager.cs" selected="True" />
+                <Node name="Enemies" expanded="True">
+                  <Node name="NPCBehaviour.cs" selected="True" />
                 </Node>
+                <Node name="Manager" expanded="True" />
                 <Node name="Player" expanded="True" />
               </Node>
             </Node>

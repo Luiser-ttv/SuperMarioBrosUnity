@@ -25,22 +25,22 @@ public class Brick : MonoBehaviour
     {
         if (_empty || !other.CompareTag("Player")) return;
         
-        //TODO: Damage enemies above brick
+       
         
         if (spawn)
         {
-            // Spawn what's in the container 
+            // Aparece el item
             Instantiate(spawn, transform.position, Quaternion.identity);
             if (multiCoinBrick)
             {
-                if(!_timerIsRunning) StartCoroutine(MultiCoinTimer()); //Only trigger once
+                if(!_timerIsRunning) StartCoroutine(MultiCoinTimer());
             }
             else
             {
-                // Stop animations like question block flash
+                // Para las animaciones
                 if (_sprite.GetComponent<Animator>()) _sprite.GetComponent<Animator>().enabled = false;
                 _sprite.GetComponent<SpriteRenderer>().sprite = emptySprite;
-                _empty = true; // Won't move on future hits
+                _empty = true; // No se mueve en futuros golpes
             }
         }
         else
@@ -74,7 +74,7 @@ public class Brick : MonoBehaviour
     {
         _timerIsRunning = true;
         yield return new WaitForSeconds(5);
-        multiCoinBrick = false; // set to be a normal brick so the next hit locks it off
+        multiCoinBrick = false; // Un bloque normal
         _timerIsRunning = false;
     }
 

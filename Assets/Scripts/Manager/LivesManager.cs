@@ -21,13 +21,16 @@ public class LivesManager : MonoBehaviour
     public void AddLives()
     {
         lives++;
+        Debug.Log(lives);
         SoundGuy.Instance.PlaySound("smb_1-up");
+        UpdateLivesText();
     }
 
     public void LoseLives()
     {
         lives--;
         CheckLives();
+        UpdateLivesText();
     }
 
     public bool CheckLives()
@@ -60,7 +63,7 @@ public class LivesManager : MonoBehaviour
     {
         SetLives(defaultLives);
         GC.GameOver();
-        // run the gameover from the gameManager
+        
     }
 
     public void UpdateLivesText()

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,6 @@
     <UnityVersion>2021.1.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets/Scripts/SoundGuy.cs" />
     <Compile Include="Assets/Scripts/Brick.cs" />
     <Compile Include="Assets/Scripts/Manager/MenuManager.cs" />
@@ -82,6 +79,7 @@
     <Compile Include="Assets/Scripts/ItemSpawn.cs" />
     <Compile Include="Assets/Scripts/Manager/LevelCompleteManager.cs" />
     <Compile Include="Assets/Scripts/Player/LowerPlayer.cs" />
+    <Compile Include="Assets/Scripts/EnterCastle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Sprites/Shaders/CRT.shader" />

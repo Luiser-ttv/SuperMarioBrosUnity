@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-// Different powers, used as an argument for PowerUp() so other entities can power-up Mario
+// Diferentes poderes, utilizados como argumento para PowerUp() para que otras entidades puedan potenciar a Mario
 public enum Power { None, Flower, Mushroom, Star }
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovementController : MonoBehaviour
 {
-    // false = No input given to mario
-    // true = Mario reads input
+    // false = No hay ordenes para Mario
+    // true = Mario lee el input
     public static bool InputEnabled = true;
 
-    // 1 = Right
-    // -1 = Left
+    // 1 = Derecha
+    // -1 = Izquierda
     public static float AutoMoveDir = 1;
     public MarioState MarioState;
 
@@ -24,22 +24,22 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private BoxCollider2D bigMarioBox;
     [Space]
 
-    // The default walk speed
+    // Velocidad de andar predeterminada
     [SerializeField] private float walkSpeed = 5;
-    // The default walk speed
+    // Velocidad de correr predeterminada
     [SerializeField] private float runSpeed = 5;
-    // How high the jump will go
+    // Como de alto saltara
     [SerializeField] private float jumpMultiplier = 5;
-    // The speed of the jump
-    // Changing this also changes the height of the jump as more or less gravity will be added
+    // Velocidad del salto
+    // Cambiando esto también cambia la altura del salto ya que se añadirá más o menos gravedad
     [SerializeField] private float jumpSpeed = 5;
-    // The offset of where the ground will be checked
+    // El desplazamiento de donde se comprobará el terreno
     [SerializeField] private float groundOffset;
-    // How far the ground will be checked
+    // Hasta dónde se revisará el suelo
     [SerializeField] private float groundDistance;
-    // The curve used to determine how much gravity will be applied for the jump.
+    // La curva utilizada para determinar la cantidad de gravedad que se aplicará para el salto.
     [SerializeField] private AnimationCurve jumpCurve;
-    // The scale of the gravity when the player is falling
+    // La escala de la gravedad cuando el jugador está cayendo
     [SerializeField] private float gravityScale = -.1f;
     [SerializeField] private float maxGravityDownForce = 0.5f;
 
@@ -49,9 +49,7 @@ public class PlayerMovementController : MonoBehaviour
     private Rigidbody2D playerRigidbody;
     private Camera mainCam;
     private float currentSpeed;
-    // Timer used for the lerp for the jump
     private float currentJumpTimer = 0;
-    // If the player currently wants to jump
     private bool jump = false;
     private float gravity = 0;
     private float desiredXDir = 0;
@@ -179,8 +177,7 @@ public class PlayerMovementController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        playerRigidbody.MovePosition(transform.position + new Vector3(desiredXDir * currentSpeed, gravity));
-        
+        playerRigidbody.MovePosition(transform.position + new Vector3(desiredXDir * currentSpeed, gravity)); 
     }
 
     private bool IsHeadJumping()
@@ -229,7 +226,7 @@ public class PlayerMovementController : MonoBehaviour
             case Power.Mushroom:
                 
                 OnPowerupPickup(power, MarioState.Small);
-                SoundGuy.Instance.PlaySound("Resources/smb_powerup.wav");
+                SoundGuy.Instance.PlaySound("Resources/Sounds/smb_powerup.wav");
                 break;
             case Power.Star:
                 
@@ -242,12 +239,22 @@ public class PlayerMovementController : MonoBehaviour
     public void AddLives(int numLives)
     {
         
-        Debug.Log("Recieved " + numLives + " lives (not functional yet)!");
+       
     }
 
     public void Die()
     {
-        GC.MarioDie();
+
+        if (MarioState == MarioState.Big)
+        {
+            MarioTransform.isDamaged = true;
+        }
+        else
+        {
+            animator.SetBool("isDead", true);
+            GC.MarioDie();
+        }
+        
     }
 
     [ContextMenu("Bouce")]

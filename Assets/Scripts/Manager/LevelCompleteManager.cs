@@ -28,8 +28,6 @@ public class LevelCompleteManager : MonoBehaviour
         fireworkCount = Mathf.FloorToInt(GC.TM.GetTimer()) % 10;
         flag.Lower();
         LowerPlayer();
-        //CastleEnter();
-
     }
 
     private void FindObjects()
@@ -45,7 +43,7 @@ public class LevelCompleteManager : MonoBehaviour
 
     private void StopPlayer()
     {
-        // TODO: Stop Mario controls and remove gravity
+       
         PlayerMovementController.InputEnabled = true;
         PMC.enabled = false;
     }
@@ -94,8 +92,6 @@ public class LevelCompleteManager : MonoBehaviour
 
     public void FireWorks()
     {
-        // fireworks points for 1, 3, 6 for 500 points each
-
         if (fireworkCount == 1 || fireworkCount == 3 || fireworkCount == 6)
         {
 
@@ -115,7 +111,6 @@ public class LevelCompleteManager : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
-            // shoot firework, add 500 points at end of animation
             yield return new WaitForSeconds(0.5f);
             fireWorks[i].Explode();
         }

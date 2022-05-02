@@ -6,7 +6,7 @@ public class ItemSpawn : MonoBehaviour
 {
     void Start() {
         
-        // Disable during spawn
+        
         if(GetComponent<NPCBehaviour>()) GetComponent<NPCBehaviour>().enabled = false;
         GetComponent<Rigidbody2D>().simulated = false;
         
@@ -19,7 +19,7 @@ public class ItemSpawn : MonoBehaviour
         GetComponent<SpriteRenderer>().enabled = false;        
         for (int i = 0; i < 32; i++)
         {
-            yield return null; // Wait for brick to be done bouncing
+            yield return null; 
         }
 
         GetComponent<SpriteRenderer>().enabled = true;

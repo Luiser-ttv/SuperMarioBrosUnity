@@ -16,6 +16,10 @@ public class GameController : MonoBehaviour
     public TimeManager TM;
     public CoinManager CM;
 
+    private GameObject[] deleteIt;
+
+    public Animator RestartMario;
+
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -24,6 +28,9 @@ public class GameController : MonoBehaviour
         SM = gameObject.GetComponent<ScoreManager>();
         TM = gameObject.GetComponent<TimeManager>();
         CM = gameObject.GetComponent<CoinManager>();
+        RestartMario = GameObject.Find("mario_small").GetComponent<Animator>();
+
+
     }
 
     // Start is called before the first frame update
@@ -33,6 +40,19 @@ public class GameController : MonoBehaviour
         {
             SetUpTitle();
         }
+        TM.UnpauseTimer();
+
+    }
+
+    void Update()
+    {
+        if (GameObject.FindGameObjectsWithTag("GameController").Length > 1)
+        {
+            deleteIt = GameObject.FindGameObjectsWithTag("GameController");
+            deleteIt[1].SetActive(false);
+            LM.UpdateLivesText();
+        }
+
     }
 
     private LevelState GetLevelState()
@@ -83,7 +103,7 @@ public class GameController : MonoBehaviour
 
     private void LoadGameOverScene()
     {
-        state = LevelState.GameOver;
+        state = LevelState.Title;
         LoadScene();
         LoadingCanvas.enabled = false;
         ShowUICanvas();
@@ -114,6 +134,7 @@ public class GameController : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene((int)state);
+
     }
 
     public void SetUpTitle()
@@ -138,16 +159,28 @@ public class GameController : MonoBehaviour
         LoadGameOverScene();
     }
 
+    public void DeadTest()
+    {
+        
+        RestartMario.SetBool("isDead", false);
+        GameObject.FindGameObjectWithTag("Player").transform.position = new Vector2(-27.53f, -9.8f);
+        GameObject.FindGameObjectWithTag("MainCamera").transform.position = new Vector3(-20,-9, -10);
+        LM.UpdateLivesText();
+        TM.ResetTimer();
+        TM.UnpauseTimer();
+        SoundGuy.Instance.PlaySound("main_theme", true);
+    }
+
     public void MarioDie()
     {
         LM.LoseLives();
         TM.PauseTimer();
-
+        CM.ResetCoinCount();
         SoundGuy.Instance.PlaySound("", true);
         SoundGuy.Instance.PlaySound("smb_mariodie", false);
         if (LM.CheckLives())
         {
-            Invoke("LoadLoadingScene", 3f);
+            Invoke("DeadTest", 3f);
         }
         else
         {
